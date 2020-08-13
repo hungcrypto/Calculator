@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="post_login">https://hungt94-services-backend.herokuapp.com/login</string>
+    <string name="post_register">https://hungt94-services-backend.herokuapp.com/register</string>
+
+</resources>

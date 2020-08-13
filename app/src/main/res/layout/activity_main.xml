@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FrontEnd.MainActivity"
+    android:id="@+id/relativelayout">
+
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop ="350dp"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="8"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop ="350dp"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="7"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop ="350dp"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="6"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop ="400dp"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="5"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop ="400dp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="4"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="169dp"
+        android:layout_marginTop ="400dp"
+        />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="3"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop ="450dp"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="2"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop ="450dp"
+        />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="1"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop ="450dp"
+        />
+
+
+    <Button
+        android:id="@+id/button0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="0"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop ="500dp"/>
+    <Button
+        android:id="@+id/buttonDecimal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="."
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop ="500dp"/>
+
+    <Button
+        android:id="@+id/buttonEqual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:text="="
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop ="500dp"/>
+
+    <Button
+        android:id="@+id/buttonDivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop ="350dp"
+        android:text="/" />
+
+    <Button
+        android:id="@+id/buttonMultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="*"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop ="400dp"
+        />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="+"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop ="450dp"
+        />
+
+    <Button
+        android:id="@+id/buttonMinus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="-"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop ="500dp"
+        />
+
+
+    <ImageButton
+        android:id="@+id/speakButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        app:srcCompat="@drawable/ic_action_name"
+        tools:ignore="VectorDrawableCompat" />
+
+
+    <TextView
+        android:id="@+id/textInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/holo_orange_light"
+
+        android:textColor="#060707" />
+
+    <TextView
+        android:id="@+id/textScreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="250dp"
+        android:background="@android:color/holo_orange_light"
+        android:textColor="#151313" />
+
+    <Button
+        android:id="@+id/buttonDark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/white"
+        android:background="@android:color/black"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop ="300dp"
+        android:text="Dark" />
+    <Button
+        android:id="@+id/buttonLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor ="@android:color/black"
+        android:background="@android:color/white"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop ="300dp"
+        android:text="Light" />
+
+    <Button
+        android:id="@+id/buttonClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="CText"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop ="300dp"
+        />
+    <Button
+        android:id="@+id/buttonClearSpeak"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_dark"
+        android:text="CSpeak"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="255dp"
+        android:layout_marginTop ="300dp"
+        />
+
+    <item
+        android:id="@+id/action_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="25dp"
+        android:title="@string/action_logout"
+        app:showAsAction="ifRoom" />
+
+</RelativeLayout>

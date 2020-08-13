@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login Fragment strings -->
+    <string name="first_name_hint">First Name …</string>
+    <string name="last_name_hint">Last Name …</string>
+    <string name="email_hint">Email …</string>
+    <string name="username_hint">Username …</string>
+    <string name="password_hint">Password …</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login">Login</string>
+
+    <!-- Register Fragment strings -->
+    <string name="register_fragment">Register fragment</string>
+    <!-- Persistent preferences -->
+    <string name="LOGIN_PREFS">edu.tacoma.uw.calculator.PREFS</string>
+    <string name="LOGGEDIN">loggedin</string>
+    <string name="USERNAME">username</string>
+    <string name = "action_logout">Sign Out</string>
+    <!-- menu strings -->
+    <string name="about">About</string>
+    <string name="help">Help</string>
+
+    <!-- Loading message -->
+    <string name="wait_msg">\tPlease wait…</string>
+</resources>

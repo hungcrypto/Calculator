@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+
+    tools:context=".authenticate.RegisterFragment">
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:gravity="center_horizontal"
+       android:orientation="vertical">
+    <EditText
+        android:id="@+id/r_firstname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+
+       <EditText
+           android:id="@+id/r_lastname"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/r_firstname"
+           android:ems="10"
+           android:inputType="textPersonName"
+            />
+       <EditText
+           android:id="@+id/r_email"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/r_lastname"
+           android:autofillHints="emailAddress"
+           android:inputType="textEmailAddress"
+           />
+       <EditText
+           android:id="@+id/r_username"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/r_email"
+           android:autofillHints="username"
+           android:hint="@string/username_hint"
+           android:inputType="textNoSuggestions"
+           />
+       <EditText
+           android:id="@+id/r_password"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_below="@+id/r_username"
+           android:autofillHints="password"
+           android:hint="@string/password_hint"
+           android:inputType="textPassword"
+           />
+       <Button
+           android:id="@+id/btn_register"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/btn_register"
+           />
+
+   </LinearLayout>
+</FrameLayout>
+
